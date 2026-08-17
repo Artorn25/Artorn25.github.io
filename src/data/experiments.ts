@@ -1,0 +1,58 @@
+import type { Experiment } from '@/types/experiment'
+
+export const experiments: Experiment[] = [
+  {
+    id: 'ocr-passport',
+    index: '01',
+    name: 'OCR PASSPORT',
+    command: './run-experiment --target ocr-passport',
+    status: 'completed',
+    result: 'MRZ and visual zone extraction stabilized at 98.4% field accuracy.',
+    technologies: ['Computer Vision', 'FastAPI', 'PostgreSQL'],
+  },
+  {
+    id: 'object-detection',
+    index: '02',
+    name: 'OBJECT DETECTION',
+    command: './run-experiment --target object-detection',
+    status: 'completed',
+    result: 'YOLO pipeline reduced false positives on low-light frames by 22%.',
+    technologies: ['YOLO', 'Computer Vision', 'Python'],
+  },
+  {
+    id: 'semantic-search',
+    index: '03',
+    name: 'SEMANTIC SEARCH',
+    command: './run-experiment --target semantic-search',
+    status: 'completed',
+    result: 'Semantic retrieval optimized for mixed keyword and embedding queries.',
+    technologies: ['Transformers', 'Vector Search', 'FastAPI'],
+  },
+  {
+    id: 'api-security',
+    index: '04',
+    name: 'API SECURITY',
+    command: './run-experiment --target api-security',
+    status: 'completed',
+    result: 'Schema validation and abuse heuristics blocked malformed payloads.',
+    technologies: ['Node.js', 'Redis', 'Nginx'],
+  },
+  {
+    id: 'network-monitor',
+    index: '05',
+    name: 'NETWORK MONITOR',
+    command: './run-experiment --target network-monitor',
+    status: 'running',
+    result: 'East-west flow baseline collecting across staging clusters.',
+    technologies: ['Python', 'Linux', 'Redis'],
+  },
+  {
+    id: 'ai-experiments',
+    index: '06',
+    name: 'AI EXPERIMENTS',
+    command: './run-experiment --target ai-lab',
+    status: 'queued',
+    result: 'Multimodal retrieval probes scheduled against the video archive.',
+    technologies: ['Transformers', 'Vector Search', 'React'],
+  },
+]

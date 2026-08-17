@@ -1,0 +1,25 @@
+import type { Technology } from '@/types/technology'
+
+export const technologies: Technology[] = [
+  { id: 'python', name: 'Python', group: 'Backend', summary: 'Primary systems language' },
+  { id: 'django', name: 'Django', group: 'Backend', summary: 'Enterprise web framework' },
+  { id: 'fastapi', name: 'FastAPI', group: 'Backend', summary: 'High-performance APIs' },
+  { id: 'nodejs', name: 'Node.js', group: 'Backend', summary: 'Event-driven services' },
+  { id: 'react', name: 'React', group: 'Frontend', summary: 'Interactive interfaces' },
+  { id: 'typescript', name: 'TypeScript', group: 'Frontend', summary: 'Typed application layer' },
+  { id: 'tailwind', name: 'Tailwind', group: 'Frontend', summary: 'Utility-first styling' },
+  { id: 'threejs', name: 'Three.js', group: 'Frontend', summary: 'Real-time 3D visualization' },
+  { id: 'sqlserver', name: 'SQL Server', group: 'Database', summary: 'Relational enterprise store' },
+  { id: 'mongodb', name: 'MongoDB', group: 'Database', summary: 'Document and search store' },
+  { id: 'postgresql', name: 'PostgreSQL', group: 'Database', summary: 'Transactional data layer' },
+  { id: 'redis', name: 'Redis', group: 'Database', summary: 'Cache and message fabric' },
+  { id: 'docker', name: 'Docker', group: 'DevOps', summary: 'Containerized delivery' },
+  { id: 'linux', name: 'Linux', group: 'DevOps', summary: 'Production runtime' },
+  { id: 'nginx', name: 'Nginx', group: 'DevOps', summary: 'Edge and reverse proxy' },
+  { id: 'jenkins', name: 'Jenkins', group: 'DevOps', summary: 'Build automation' },
+  { id: 'kubernetes', name: 'Kubernetes', group: 'DevOps', summary: 'Orchestrated workloads' },
+  { id: 'yolo', name: 'YOLO', group: 'AI / ML', summary: 'Realtime object detection' },
+  { id: 'cv', name: 'Computer Vision', group: 'AI / ML', summary: 'Visual intelligence' },
+  { id: 'transformers', name: 'Transformers', group: 'AI / ML', summary: 'Language representations' },
+  { id: 'vector', name: 'Vector Search', group: 'AI / ML', summary: 'Semantic retrieval' },
+]
